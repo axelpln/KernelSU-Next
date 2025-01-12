@@ -13,7 +13,7 @@
 
 ## 特性
 
-1. 基于内核的 SU 和权限管理
+1. 基于内核的 `SU` 和权限管理
 2. 基于动态挂载系统 [Magic Mount](https://topjohnwu.github.io/Magisk/details.html#magic-mount) / [OverlayFS](https://en.wikipedia.org/wiki/OverlayFS) 的模块系统。
 3. [App Profile](https://kernelsu.org/zh_CN/guide/app-profile.html)：把 Root 权限关进笼子里
 
