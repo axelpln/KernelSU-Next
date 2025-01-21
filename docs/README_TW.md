@@ -1,4 +1,4 @@
-[English](README.md) | [简体中文](README_CN.md) | **繁體中文** | [Türkçe](README_TR.md) | [Português (Brasil)](README_PT-BR.md) | [한국어](README_KO.md)
+[English](README.md) | [简体中文](README_CN.md) | **繁體中文** | [Türkçe](README_TR.md) | [Português (Brasil)](README_PT-BR.md) | [한국어](README_KO.md) | [Français](README_FR.md) | [Bahasa Indonesia](README_ID.md) | [Русский](README_RU.md) | [ภาษาไทย](README_TH.md)
 
 # KernelSU Next
 
@@ -19,10 +19,10 @@
 
 ## 兼容狀態
 
-KernelSU Next 正式支持大多數從 4.4 到 6.6 的 Android 內核。
- - GKI 2.0 (5.10+) 內核可以運行預構建的映像和 LKM/KMI。
- - GKI 1.0 (4.19 - 5.4) 內核需要重新編譯 KernelSU 驅動程序。
- - EOL (<4.14) 內核也需要重新編譯 KernelSU 驅動程序（3.18+ 是實驗性的，可能需要一些功能回移）。
+KernelSU Next 正式支持大多數從 4.4 到 6.6 的 Android 內核
+ - GKI 2.0 (5.10+) 內核可以運行預構建的映像和 LKM/KMI
+ - GKI 1.0 (4.19 - 5.4) 內核需要重新編譯 KernelSU 驅動程序
+ - EOL (<4.14) 內核也需要重新編譯 KernelSU 驅動程序（3.18+ 是實驗性的，可能需要移植一些功能）
 
 目前僅支持 `arm64-v8a`
 
@@ -47,3 +47,4 @@ KernelSU Next 正式支持大多數從 4.4 到 6.6 的 Android 內核。
 - [Diamorphine](https://github.com/m0nad/Diamorphine): 一些 Rootkit 技巧。
 - [KernelSU](https://github.com/tiann/KernelSU): 感謝 tiann，否則 KernelSU Next 根本不會存在。
 - [Magic Mount Port](https://github.com/5ec1cff/KernelSU/blob/main/userspace/ksud/src/magic_mount.rs): 💜 5ec1cff 為了拯救 KernelSU！
+

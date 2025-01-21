@@ -4,10 +4,9 @@ import sys
 from telethon import TelegramClient
 from telethon.tl.functions.help import GetConfigRequest
 
-API_ID = 611335
-API_HASH = "d524b414d21f4d37f08684c1df41ac9c"
-
-
+# Environment Variables
+API_ID = os.environ.get("API_ID")
+API_HASH = os.environ.get("API_HASH")
 BOT_TOKEN = os.environ.get("BOT_TOKEN")
 CHAT_ID = os.environ.get("CHAT_ID")
 MESSAGE_THREAD_ID = os.environ.get("MESSAGE_THREAD_ID")
@@ -82,7 +81,7 @@ async def main():
         exit(1)
     print("[+] Logging in Telegram with bot")
     script_dir = os.path.dirname(os.path.abspath(sys.argv[0]))
-    session_dir = os.path.join(script_dir, "ksubot")
+    session_dir = os.path.join(script_dir, "ksunextbot")
     async with await TelegramClient(session=session_dir, api_id=API_ID, api_hash=API_HASH).start(bot_token=BOT_TOKEN) as bot:
         caption = [""] * len(files)
         caption[-1] = get_caption()
@@ -91,7 +90,13 @@ async def main():
         print(caption)
         print("---")
         print("[+] Sending")
-        await bot.send_file(entity=CHAT_ID, file=files, caption=caption, reply_to=MESSAGE_THREAD_ID, parse_mode="markdown")
+        await bot.send_file(
+            entity=CHAT_ID,
+            file=files,
+            caption=caption,
+            reply_to=MESSAGE_THREAD_ID,
+            parse_mode="markdown"
+        )
         print("[+] Done!")
 
 if __name__ == "__main__":
