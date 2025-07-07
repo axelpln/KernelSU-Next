@@ -84,9 +84,9 @@ KernelSU Next 支持从 **4.4 到 6.6** 的大多数安卓内核。
 
 ## 🙏 鸣谢
 
-- [Kernel-Assisted Superuser](https://git.zx2c4.com/kernel-assisted-superuser/about/) – KernelSU 的灵感
-- [Magisk](https://github.com/topjohnwu/Magisk) – 强大的 Root 工具
-- [Genuine](https://github.com/brevent/genuine/) – APK v2 签名验证
-- [Diamorphine](https://github.com/m0nad/Diamorphine) – 一些 Rootkit 技巧
-- [KernelSU](https://github.com/tiann/KernelSU) – 感谢 tiann，否则 KernelSU Next 根本不会存在
-- [Magic Mount Port](https://github.com/5ec1cff/KernelSU/blob/main/userspace/ksud/src/magic_mount.rs) – 💜 5ec1cff 为了拯救 KernelSU！
+- [Kernel-Assisted Superuser](https://git.zx2c4.com/kernel-assisted-superuser/about/)：KernelSU 的灵感。
+- [Magisk](https://github.com/topjohnwu/Magisk)：强大的 Root 工具。
+- [genuine](https://github.com/brevent/genuine/)：APK v2 签名验证。
+- [Diamorphine](https://github.com/m0nad/Diamorphine)：一些 Rootkit 技巧。
+- [KernelSU](https://github.com/tiann/KernelSU)：感谢 tiann，否则 KernelSU Next 根本不会存在。
+- [Magic Mount Port](https://github.com/5ec1cff/KernelSU/blob/main/userspace/ksud/src/magic_mount.rs)：💜 5ec1cff 为了拯救 KernelSU！
